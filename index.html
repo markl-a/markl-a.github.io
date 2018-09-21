@@ -92,11 +92,14 @@
 <p>Input: “pwwkew”<br>Output: 3<br>Explanation: The answer is “wke”, with the length of 3.<br>　　　　　　　Note that the answer must be a substring,<br>　　　　　　　“pwke” is a subsequence and not a substring.  </p>
 <p>此連結為原題的題目以及Java解:<br><a href="https://leetcode.com/articles/longest-substring-without-repeating-characters/" target="_blank" rel="noopener">https://leetcode.com/articles/longest-substring-without-repeating-characters/</a></p>
 <p>上面連結內的代碼可以順便複習下怎樣計算時間複雜度跟空間複雜度。<br>官方給的解法主要就是暴力破解(窮舉法)跟滑動窗口法。</p>
+<p>C++的code , 可能有很多bug，用官方第三種方法的思路實作的，呵呵。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">  int lengthOfLongestSubstring(string s) &#123;</span><br><span class="line"></span><br><span class="line">        vector&lt;int&gt; index(128);</span><br><span class="line">        int ans = 0;</span><br><span class="line"></span><br><span class="line">        for (int j = 0, i = 0; j &lt; s.length(); j++) &#123;</span><br><span class="line">            i = std::max(index[s.at(j)], i);</span><br><span class="line">            ans = std::max(ans, j - i + 1);</span><br><span class="line">            index[s.at(j)] = j + 1;</span><br><span class="line">        &#125;</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<p>Python的code, 思路其實也跟C++的寫法一樣，只是是用Dictornary實現<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">   def lengthOfLongestSubstring(self, s):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        :type s: str</span><br><span class="line">        :rtype: int</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        index=&#123;&#125;</span><br><span class="line">        ans=0</span><br><span class="line">        tmp=-1</span><br><span class="line">        for i in range(len(s)):</span><br><span class="line">            if s[i] in index and index[s[i]]&gt;tmp:</span><br><span class="line">                tmp=index[s[i]]</span><br><span class="line">            index[s[i]]=i</span><br><span class="line">            ans=max(ans,(i-tmp))</span><br><span class="line">        return ans</span><br></pre></td></tr></table></figure></p>
+<p>之後還會再修改。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/21/Leetcode-3-Longest-Substring-Without-Repeating-Characters/" data-id="cjmbnm9wf0001q87kndy9hdql" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/21/Leetcode-3-Longest-Substring-Without-Repeating-Characters/" data-id="cjmc0a2q50001847kwvelh8yh" class="article-share-link">Share</a>
       
       
     </footer>
@@ -140,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/20/機器學習二次入門/" data-id="cjmbnm9wq0004q87k711377sf" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/20/機器學習二次入門/" data-id="cjmc0a2q80003847ksjtwsjjx" class="article-share-link">Share</a>
       
       
     </footer>
@@ -198,7 +201,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/20/Leetcode-2-Add-Two-Numbers/" data-id="cjmbnm9wc0000q87kuv0t8bwn" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/20/Leetcode-2-Add-Two-Numbers/" data-id="cjmc0a2q00000847kfw3p82vg" class="article-share-link">Share</a>
       
       
     </footer>
@@ -243,7 +246,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/19/leetcode-1/" data-id="cjmbnm9wi0003q87kaat2i7gf" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/19/leetcode-1/" data-id="cjmc0a2q70002847kb3t4og38" class="article-share-link">Share</a>
       
       
     </footer>
@@ -288,7 +291,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/18/hello-world/" data-id="cjmbnm9wh0002q87krc1w5mwu" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/18/hello-world/" data-id="cjmc0a2q90004847kjoj4v4l8" class="article-share-link">Share</a>
       
       
     </footer>
