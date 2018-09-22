@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="程式, 技術, 人生札記">
 <meta property="og:description" content="There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)). You may assume nums1 and num">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-22T14:35:41.501Z">
+<meta property="og:updated_time" content="2018-09-22T15:52:19.601Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Leetcode] 4.Median of Two Sorted Arrays">
 <meta name="twitter:description" content="There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)). You may assume nums1 and num">
@@ -98,6 +98,8 @@
 <p>The median is 2.0<br>Example 2:</p>
 <p>nums1 = [1, 2]<br>nums2 = [3, 4]</p>
 <p>The median is (2 + 3)/2 = 2.5</p>
+<p>這題我的思路是先從兩陣列的中位數比大小，比較大的就切半（相加的size還是要(m+n+1)/2)再比大小，</p>
+<p>最後找到從前面數起最中間的一個或兩個數這樣。</p>
 <p>C++的code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 <p>Java的code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
 <p>Python的code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
@@ -105,7 +107,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/22/Leetcode-4-Median-of-Two-Sorted-Arrays/" data-id="cjmdl5qdv0002qk7kr3v721gm" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/22/Leetcode-4-Median-of-Two-Sorted-Arrays/" data-id="cjmdm4ef40002qc7kr6vawgkt" class="article-share-link">Share</a>
       
       
     </footer>
