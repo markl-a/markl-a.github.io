@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="程式, 技術, 人生札記">
 <meta property="og:description" content="Given a string, find the length of the longest substring without repeating characters.題目會給一字串，傳回最大的不重複字串長度。Example 1: Input: “abcabcbb”Output: 3Explanation: The answer is “abc”, with the length of 3.">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-21T12:52:16.666Z">
+<meta property="og:updated_time" content="2018-09-22T15:25:22.310Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Leetcode] 3.Longest Substring Without Repeating Characters">
 <meta name="twitter:description" content="Given a string, find the length of the longest substring without repeating characters.題目會給一字串，傳回最大的不重複字串長度。Example 1: Input: “abcabcbb”Output: 3Explanation: The answer is “abc”, with the length of 3.">
@@ -96,12 +96,11 @@
 <p>上面連結內的代碼可以順便複習下怎樣計算時間複雜度跟空間複雜度。<br>官方給的解法主要就是暴力破解(窮舉法)跟滑動窗口法。</p>
 <p>C++的code , 可能有很多bug，用官方第三種方法的思路實作的，呵呵。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">  int lengthOfLongestSubstring(string s) &#123;</span><br><span class="line"></span><br><span class="line">        vector&lt;int&gt; index(128);</span><br><span class="line">        int ans = 0;</span><br><span class="line"></span><br><span class="line">        for (int j = 0, i = 0; j &lt; s.length(); j++) &#123;</span><br><span class="line">            i = std::max(index[s.at(j)], i);</span><br><span class="line">            ans = std::max(ans, j - i + 1);</span><br><span class="line">            index[s.at(j)] = j + 1;</span><br><span class="line">        &#125;</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
 <p>Python的code, 思路其實也跟C++的寫法一樣，只是是用Dictornary實現<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">   def lengthOfLongestSubstring(self, s):</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        :type s: str</span><br><span class="line">        :rtype: int</span><br><span class="line">        &quot;&quot;&quot;</span><br><span class="line">        index=&#123;&#125;</span><br><span class="line">        ans=0</span><br><span class="line">        tmp=-1</span><br><span class="line">        for i in range(len(s)):</span><br><span class="line">            if s[i] in index and index[s[i]]&gt;tmp:</span><br><span class="line">                tmp=index[s[i]]</span><br><span class="line">            index[s[i]]=i</span><br><span class="line">            ans=max(ans,(i-tmp))</span><br><span class="line">        return ans</span><br></pre></td></tr></table></figure></p>
-<p>之後還會再修改。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/21/Leetcode-3-Longest-Substring-Without-Repeating-Characters/" data-id="cjmdkfy6g0002p47k9rqqz1nj" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/21/Leetcode-3-Longest-Substring-Without-Repeating-Characters/" data-id="cjmdl5qdt0001qk7kdpco4gbs" class="article-share-link">Share</a>
       
       
     </footer>
