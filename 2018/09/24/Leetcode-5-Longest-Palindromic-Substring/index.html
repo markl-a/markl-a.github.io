@@ -14,10 +14,13 @@
 <meta property="og:site_name" content="程式, 技術, 人生札記">
 <meta property="og:description" content="看來不能在頁面裡夾MathJax的script來顯示數學式子，要不然chrome瀏覽器會顯示被入侵或不安全。 呵呵1&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-24T03:55:11.601Z">
+<meta property="og:image" content="http://chart.googleapis.com/chart?cht=tx&chl= x^3">
+<meta property="og:image" content="http://chart.googleapis.com/chart?cht=tx&chl= x^2">
+<meta property="og:updated_time" content="2018-09-24T03:57:35.935Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[Leetcode] 5.Longest Palindromic Substring">
 <meta name="twitter:description" content="看來不能在頁面裡夾MathJax的script來顯示數學式子，要不然chrome瀏覽器會顯示被入侵或不安全。 呵呵1&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;">
+<meta name="twitter:image" content="http://chart.googleapis.com/chart?cht=tx&chl= x^3">
   
     <link rel="alternate" href="/atom.xml" title="程式, 技術, 人生札記" type="application/atom+xml">
   
@@ -99,13 +102,13 @@
 <p>不過有還是要確定反轉後的位置跟反轉前是吻合的。要不然就會有BUG。  </p>
 <p>(2) 窮舉法 (Brute Force)   </p>
 <p>這個主要就是全找出所有的組合然後確認是否回文。時間複雜度是最高的。</p>
-<p>時間複雜度則是\( x^3 \)。   </p>
+<p>時間複雜度則是<img src="http://chart.googleapis.com/chart?cht=tx&amp;chl= x^3" alt="">。   </p>
 <p>(3) <a href="https://zh.wikipedia.org/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92" target="_blank" rel="noopener">Dynamic programing</a>:  </p>
 <p>算是上面方法的升級版，主要就是因為回文的模式， abba 或 abcba之類的回文 bb 或 bcb也是回文。</p>
 <p>所以就先找最小可能回文再擴大這樣。</p>
 <p>(4) Expand Around Center:  </p>
 <p>上面思路的升級版， 從中心擴展。中心有一個數或兩個數的區別，所以ｎ長度的中心會有2n-1個。   </p>
-<p>空間的使用會比上面的方法要省，時間複雜度則是\( x^2 \)                                 </p>
+<p>空間的使用會比上面的方法要省，時間複雜度則是<img src="http://chart.googleapis.com/chart?cht=tx&amp;chl= x^2" alt="">。                                 </p>
 <p>(5) <a href="http://www.csie.ntnu.edu.tw/~u91029/Palindrome.html" target="_blank" rel="noopener">Manacher’s Algorithm:</a>   </p>
 <p>上面思路的再升級板， 不過官方認為這樣經過複雜加工的答案一般人不能在45分鐘內想到並實作出來。</p>
 <p>马拉车算法 Manacher‘s Algorithm 是用来查找一个字符串的最长回文子串的线性方法，由一个叫Manacher的人在1975年发明的，这个方法的最大贡献是在于将时间复杂度提升到了线性。<br>轉載自:<a href="http://windliang.cc/2018/08/05/leetCode-5-Longest-Palindromic-Substring/" target="_blank" rel="noopener">http://windliang.cc/2018/08/05/leetCode-5-Longest-Palindromic-Substring/</a></p>
@@ -116,7 +119,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/09/24/Leetcode-5-Longest-Palindromic-Substring/" data-id="cjmfrdwla0003ds7kp7w7ezf2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/09/24/Leetcode-5-Longest-Palindromic-Substring/" data-id="cjmfrgxlx0003ng7kmqd8zpju" class="article-share-link">Share</a>
       
       
     </footer>
