@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-29T10:24:44.048Z</updated>
+  <updated>2018-09-28T10:57:42.515Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>intel news</title>
-    <link href="http://yoursite.com/2018/09/29/intel-news/"/>
-    <id>http://yoursite.com/2018/09/29/intel-news/</id>
-    <published>2018-09-29T10:17:30.000Z</published>
-    <updated>2018-09-29T10:24:44.048Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="下面三則貌似都是同一新聞"><a href="#下面三則貌似都是同一新聞" class="headerlink" title="下面三則貌似都是同一新聞"></a>下面三則貌似都是同一新聞</h3><p>新聞來源:　<a href="https://newsroom.intel.com/news-releases/supply-update/" target="_blank" rel="noopener">An Open Letter from Bob Swan, Intel CFO and Interim CEO</a></p><p>engadget的版本:　<a href="https://chinese.engadget.com/2018/09/29/intel-supply-problems-core-xeon-cpu-10nm/" target="_blank" rel="noopener">Intel 承認低價桌電處理器「供應吃緊」，將專注在高階產品上</a></p><p>36kr的版本:　<a href="https://36kr.com/p/5155438.html" target="_blank" rel="noopener">英特尔反驳质疑：芯片供应充足、10nm量产没问题</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;下面三則貌似都是同一新聞&quot;&gt;&lt;a href=&quot;#下面三則貌似都是同一新聞&quot; class=&quot;headerlink&quot; title=&quot;下面三則貌似都是同一新聞&quot;&gt;&lt;/a&gt;下面三則貌似都是同一新聞&lt;/h3&gt;&lt;p&gt;新聞來源:　&lt;a href=&quot;https://newsroo
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Tech News</title>
