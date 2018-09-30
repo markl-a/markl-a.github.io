@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-28T10:57:42.515Z</updated>
+  <updated>2018-09-30T08:38:22.693Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode 6</title>
+    <link href="http://yoursite.com/2018/09/29/leetcode-6/"/>
+    <id>http://yoursite.com/2018/09/29/leetcode-6/</id>
+    <published>2018-09-29T10:44:59.000Z</published>
+    <updated>2018-09-30T08:38:22.693Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Leetcode-6-ZigZag-Conversion-題目解析-思路和代碼"><a href="#Leetcode-6-ZigZag-Conversion-題目解析-思路和代碼" class="headerlink" title="[Leetcode] 6. ZigZag Conversion 題目解析,思路和代碼"></a>[Leetcode] 6. ZigZag Conversion 題目解析,思路和代碼</h3><p>今天發現了<a href="https://leetcode-cn.com" target="_blank" rel="noopener">leetcode的簡中版</a> 以及 <a href="https://www.lintcode.com" target="_blank" rel="noopener">lintcode</a>。</p><p>The string “PAYPALISHIRING” is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)<br>将字符串 “PAYPALISHIRING” 以Z字形排列成给定的行数：</p><p>P &ensp; &ensp; A &ensp;&ensp;&ensp;H &ensp;&ensp; &ensp;N<br>A&ensp;P &ensp;L&ensp; S&ensp;I&ensp;&ensp; I &ensp; G<br>Y &ensp;&ensp;&ensp;  I &ensp;&ensp;&ensp;  R<br>之后从左往右，逐行读取字符：”PAHNAPLSIIGYIR”</p><p>实现一个将字符串进行指定行数变换的函数:<br>And then read line by line: “PAHNAPLSIIGYIR”      </p><p>Write the code that will take a string and make this conversion given a number of rows:   </p><p>string convert(string s, int numRows);  </p><p>Example 1:</p><p>Input: s = “PAYPALISHIRING”, numRows = 3<br>Output: “PAHNAPLSIIGYIR”  </p><p>P &ensp; &ensp; A &ensp;&ensp;&ensp;H &ensp;&ensp; &ensp;N<br>A&ensp;P &ensp;L&ensp; S&ensp;I&ensp;&ensp; I &ensp; G<br>Y &ensp;&ensp;&ensp;  I &ensp;&ensp;&ensp;  R  </p><p>Example 2:</p><p>Input: s = “PAYPALISHIRING”, numRows = 4<br>Output: “PINALSIGYAHRPI”<br>Explanation:</p><p>P  &ensp;&ensp;&ensp;&ensp;&ensp;I &ensp;&ensp; &ensp;&ensp;&ensp; N<br>A &ensp; L&ensp;&ensp;S &ensp;&ensp;&ensp; I &ensp; G<br>Y A&ensp;&ensp;&ensp;H &ensp;R<br>P   &ensp;&ensp;&ensp;&ensp;&ensp;I</p><p>0  &ensp;&ensp;&ensp;&ensp;&ensp;6 &ensp;&ensp; &ensp;&ensp;&ensp; 12<br>1 &ensp; 5&ensp;&ensp;7&ensp;&ensp;&ensp; 11&ensp;13<br>2 4&ensp;&ensp;&ensp; 8 &ensp;10<br>3   &ensp;&ensp;&ensp;&ensp;&ensp;9</p><p>其實這題就主要就是觀察規律，輸入的序列ｘ的輸出序列ｙ主要就是看</p><p> ( 順序 ) x%(numRows(直線)+ (numRows-2)(斜線))</p><p>跟 ( 第幾個迴圈 ) x/(numRows(直線)+ (numRows-2)(斜線))</p><p>一個勾勾(如上圖，０～５, 一個v)是一個迴圈。</p><p>官方的ｃ＋＋解答如下。</p><p>另外假如是以輸出的序列為程序中For的順序的話，則需考慮最後非完整的迴圈。</p><p>c++的code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    string convert(string s, int numRows) &#123;</span><br><span class="line"></span><br><span class="line">        if (numRows == 1) return s;</span><br><span class="line"></span><br><span class="line">        string ret;</span><br><span class="line">        int n = s.size();</span><br><span class="line">        int cycleLen = 2 * numRows - 2;</span><br><span class="line"></span><br><span class="line">        for (int i = 0; i &lt; numRows; i++) &#123;</span><br><span class="line">            for (int j = 0; j + i &lt; n; j += cycleLen) &#123;</span><br><span class="line">                ret += s[j + i];//直線</span><br><span class="line">                if (i != 0 &amp;&amp; i != numRows - 1 &amp;&amp; j + cycleLen - i &lt; n)</span><br><span class="line">                    ret += s[j + cycleLen - i];//斜線</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return ret;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>之後的解析都會是我自己寫的代碼。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Leetcode-6-ZigZag-Conversion-題目解析-思路和代碼&quot;&gt;&lt;a href=&quot;#Leetcode-6-ZigZag-Conversion-題目解析-思路和代碼&quot; class=&quot;headerlink&quot; title=&quot;[Leetcode] 6. 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Tech News</title>
@@ -45,7 +66,7 @@
     <link href="http://yoursite.com/2018/09/26/IC-Course/"/>
     <id>http://yoursite.com/2018/09/26/IC-Course/</id>
     <published>2018-09-26T03:09:53.000Z</published>
-    <updated>2018-09-26T09:44:58.622Z</updated>
+    <updated>2018-09-29T10:29:43.470Z</updated>
     
     <content type="html"><![CDATA[<h3 id="IC設計和嵌入式相關課程"><a href="#IC設計和嵌入式相關課程" class="headerlink" title="IC設計和嵌入式相關課程"></a>IC設計和嵌入式相關課程</h3><p>這部分我沒有涉獵，之前無聊太閒幫別人找的，有興趣可以看一下。<br>不過有一部分都是簡體的，不反感的就查看一下吧。</p><p><a href="http://training.eeworld.com.cn/search?q=verilog" target="_blank" rel="noopener">電子工程世界大學堂</a><br><a href="http://www.digoboy.com/course/lists/29_59.html" target="_blank" rel="noopener">地瓜派課程</a><br><a href="http://www.kokojia.com/list/231.html" target="_blank" rel="noopener">課課家</a><br><a href="https://study.163.com/courses-search?keyword=ic" target="_blank" rel="noopener">網易精品課IC設計相關</a><br><a href="https://ke.qq.com/course/list?mt=1001&amp;st=2043" target="_blank" rel="noopener">騰訊課堂硬體開發相關</a><br>下面兩個論壇感覺東西都很多<br><a href="http://bbs.eetop.cn/" target="_blank" rel="noopener">ＥＴ創芯論壇</a><br><a href="http://www.ictown.com/" target="_blank" rel="noopener">IC TOWN</a><br><a href="https://forum.mianbaoban.cn/" target="_blank" rel="noopener">麵包版論壇</a>         </p><p>這部分是英文的<br><a href="https://www.fpga4student.com/p/verilog-project.html" target="_blank" rel="noopener">VERILOG PROJECT</a><br><a href="https://www.youtube.com/watch?v=eXb8prknDKg&amp;list=PLScWdLzHpkAfbPhzz1NKHDv2clv1SgsMo" target="_blank" rel="noopener">EDA Playground</a><br><a href="https://www.coursera.org/learn/intro-fpga-design-embedded-systems" target="_blank" rel="noopener">Introduction to FPGA Design for Embedded Systems</a><br><a href="https://onlinecourses.nptel.ac.in/noc17_cs21/preview" target="_blank" rel="noopener">Hardware Modeling Using Verilog</a><br><a href="https://www.quora.com/What-is-the-best-online-course-to-learn-system-verilog" target="_blank" rel="noopener">What is the best online course to learn system verilog?</a><br><a href="https://www.quora.com/What-are-the-best-MOOC-courses-to-take-for-a-job-in-the-VLSI-industry-back-or-front-end-of-digital-IC-design-or-verification" target="_blank" rel="noopener">What are the best MOOC courses to take for a job in the VLSI industry (back or front end of digital IC design or verification)?</a></p>]]></content>
     
