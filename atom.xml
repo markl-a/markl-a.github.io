@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-30T11:56:35.901Z</updated>
+  <updated>2018-09-30T12:00:29.889Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>machine learning intro</title>
+    <title>Machine Learning Intro</title>
     <link href="http://yoursite.com/2018/09/30/machine-learning-intro/"/>
     <id>http://yoursite.com/2018/09/30/machine-learning-intro/</id>
     <published>2018-09-30T11:52:19.000Z</published>
-    <updated>2018-09-30T11:56:35.901Z</updated>
+    <updated>2018-09-30T12:00:29.889Z</updated>
     
     <content type="html"><![CDATA[<h3 id="轉貼-超智能体-S01：高考与机器学习"><a href="#轉貼-超智能体-S01：高考与机器学习" class="headerlink" title="轉貼:超智能体-S01：高考与机器学习"></a>轉貼:超智能体-S01：高考与机器学习</h3><p>這個視頻用高考很形象的比喻了機器學習的過程。</p><iframe width="670" height="420" src="https://www.youtube.com/embed/hOqa9tox-Kg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></content>
     
