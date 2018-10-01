@@ -10,6 +10,11 @@
 
     <!--Description-->
     
+        <meta name="description" content="[Leetcode] 7. Reverse IntegerGiven a 32-bit signed integer, reverse digits of an integer.
+Example 1:
+Input: 123Output: 321Example 2:
+Input: -123Output">
+    
 
     <!--Author-->
     
@@ -17,6 +22,8 @@
     
 
     <!--Open Graph Title-->
+    
+        <meta property="og:title" content="[Leetcode 7]"/>
     
 
     <!--Open Graph Site Name-->
@@ -29,7 +36,7 @@
 
     <!-- Title -->
     
-    <title>Archives - 程式, 技術, 人生札記</title>
+    <title>[Leetcode 7] - 程式, 技術, 人生札記</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/sass/main.css">
@@ -107,83 +114,46 @@
                 <!-- Main Content -->
                 
 
-<section class="archives">
+    <h1>[Leetcode 7]</h1>
+
+
+
+<!-- Gallery -->
+
+
+<!-- Content -->
+<h3 id="Leetcode-7-Reverse-Integer"><a href="#Leetcode-7-Reverse-Integer" class="headerlink" title="[Leetcode] 7. Reverse Integer"></a>[Leetcode] 7. Reverse Integer</h3><p>Given a 32-bit signed integer, reverse digits of an integer.</p>
+<p>Example 1:</p>
+<p>Input: 123<br>Output: 321<br>Example 2:</p>
+<p>Input: -123<br>Output: -321<br>Example 3:</p>
+<p>Input: 120<br>Output: 21</p>
+<p>簡單來說就是反轉數值，不過正負不變。</p>
+<p>c++的code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">int reverse(int x) &#123;</span><br><span class="line">    int y = 0;</span><br><span class="line">    while (x!=0)</span><br><span class="line">    &#123;      </span><br><span class="line">        if ( abs(y) &gt; INT_MAX / 10)return 0;防止溢位</span><br><span class="line">        y = y * 10 + x % 10;</span><br><span class="line">        x /= 10;</span><br><span class="line">    &#125;</span><br><span class="line">    return y;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>Runtime: 20 ms, faster than 25.65% of C++ online submissions for Reverse Integer.<br>雖然寫的簡單，但是跑得有點慢就是了。</p>
+
+
+<!-- Tags -->
+
+
+
+<div class="tags">
     
-    <ul class="archive-list">
-        
-            <li>
-    <a href="/2018/09/26/IC-Course/">IC Courses</a>
-</li>
+</div>
 
-        
-            <li>
-    <a href="/2018/09/22/Leetcode-4-Median-of-Two-Sorted-Arrays/">[Leetcode 4]</a>
-</li>
 
-        
-            <li>
-    <a href="/2018/09/25/Deep-Learning-Path/">Deep Learning Path</a>
-</li>
 
-        
-            <li>
-    <a href="/2018/09/24/Leetcode-5-Longest-Palindromic-Substring/">[Leetcode 5]</a>
-</li>
+<!-- Comments -->
+<div>
+    
+    <hr />
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
-        
-            <li>
-    <a href="/2018/09/19/Leetcode-1-Two-Sum-1/">[Leetcode 1]</a>
-</li>
 
-        
-            <li>
-    <a href="/2018/09/21/Leetcode-3-Longest-Substring-Without-Repeating-Characters/">[Leetcode 3]</a>
-</li>
 
-        
-            <li>
-    <a href="/2018/09/29/leetcode-6/">[Leetcode 6]</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/10/01/leetcoe-7/">[Leetcode 7]</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/09/25/Machine-Learning-Path/">Machine Learning Path</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/09/20/Leetcode-2-Add-Two-Numbers/">[Leetcode 2]</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/09/18/hello-world/">Hello World</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/09/30/machine-learning-intro/">Machine Learning Intro</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/09/20/機器學習二次入門/">機器學習二次入門</a>
-</li>
-
-        
-            <li>
-    <a href="/2018/09/28/tech-news/">Tech News</a>
-</li>
-
-        
-    </ul>
-</section><!-- end main -->
-
+</div>
 
 
 
@@ -273,7 +243,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
