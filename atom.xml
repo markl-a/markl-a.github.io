@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-03T03:23:46.328Z</updated>
+  <updated>2018-10-03T03:24:29.819Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>jeff dean speech</title>
+    <title>Jeff Dean&#39;s speech</title>
     <link href="http://yoursite.com/2018/10/03/jeff-dean-speech/"/>
     <id>http://yoursite.com/2018/10/03/jeff-dean-speech/</id>
     <published>2018-10-03T03:19:03.000Z</published>
-    <updated>2018-10-03T03:23:46.328Z</updated>
+    <updated>2018-10-03T03:24:29.819Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Speech-of-Jeff-Dean-Google-Senior-Fellow"><a href="#Speech-of-Jeff-Dean-Google-Senior-Fellow" class="headerlink" title="Speech of Jeff Dean, Google Senior Fellow"></a>Speech of Jeff Dean, Google Senior Fellow</h3><p>感覺是他在科普機器學習在各領域的應用和最近的進展。</p><iframe width="560" height="315" src="https://www.youtube.com/embed/ljBOzdKuX7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></content>
     
