@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-03T13:21:21.222Z</updated>
+  <updated>2018-10-03T13:27:53.062Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/10/03/Leetcode-9/"/>
     <id>http://yoursite.com/2018/10/03/Leetcode-9/</id>
     <published>2018-10-03T04:19:14.000Z</published>
-    <updated>2018-10-03T13:21:21.222Z</updated>
+    <updated>2018-10-03T13:27:53.062Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Leetcode-9-Palindrome-Number"><a href="#Leetcode-9-Palindrome-Number" class="headerlink" title="[Leetcode] 9. Palindrome Number"></a>[Leetcode] 9. Palindrome Number</h1><p>Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.<br>判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p><p>Example 1:</p><p>Input: 121<br>Output: true</p><p>Example 2:</p><p>Input: -121<br>Output: false<br>Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.<br>解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。</p><p>Example 3:</p><p>Input: 10<br>Output: false<br>Explanation: Reads 01 from right to left. Therefore it is not a palindrome.<br>Follow up:<br>解释: 从右向左读, 为 01 。因此它不是一个回文数。</p><p>Coud you solve it without converting the integer to a string?<br>你能不将整数转为字符串来解决这个问题吗？</p><p>c++的code，測試寫的比較陽春一點。懶的寫 test case 。<br>目前還沒想到比官方的解法還要快的方法</p><script src="https://gist.github.com/markl-a/f0d69e64851cd7e35b45956ae40a796d.js"></script>]]></content>
+    <content type="html"><![CDATA[<h1 id="Leetcode-9-Palindrome-Number"><a href="#Leetcode-9-Palindrome-Number" class="headerlink" title="[Leetcode] 9. Palindrome Number"></a>[Leetcode] 9. Palindrome Number</h1><p>Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.<br>判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p><p>Example 1:</p><p>Input: 121<br>Output: true</p><p>Example 2:</p><p>Input: -121<br>Output: false<br>Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.<br>解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。</p><p>Example 3:</p><p>Input: 10<br>Output: false<br>Explanation: Reads 01 from right to left. Therefore it is not a palindrome.<br>Follow up:<br>解释: 从右向左读, 为 01 。因此它不是一个回文数。</p><p>Coud you solve it without converting the integer to a string?<br>你能不将整数转为字符串来解决这个问题吗？</p><p>c++的code，測試寫的比較陽春一點。懶的寫 test case 。<br>目前還沒想到比官方的解法還要快的方法  </p><script src="https://gist.github.com/markl-a/f0d69e64851cd7e35b45956ae40a796d.js"></script>]]></content>
     
     <summary type="html">
     
