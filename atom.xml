@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-03T03:45:56.533Z</updated>
+  <updated>2018-10-03T04:07:31.435Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/10/03/jeff-dean-speech/"/>
     <id>http://yoursite.com/2018/10/03/jeff-dean-speech/</id>
     <published>2018-10-03T03:19:03.000Z</published>
-    <updated>2018-10-03T03:45:56.533Z</updated>
+    <updated>2018-10-03T04:07:31.435Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Deep-Learning-to-Solve-Challenging-Problems"><a href="#Deep-Learning-to-Solve-Challenging-Problems" class="headerlink" title="Deep Learning to Solve Challenging Problems"></a>Deep Learning to Solve Challenging Problems</h1><p>Speech of Jeff Dean, Google Senior Fellow</p><p>感覺是他在科普機器學習在各領域的應用和最近的進展。比較多跟電腦視覺相關的介紹。</p><p>不過NLP領域的東西就沒有太多的介紹，不知道是進展比較小或因為是和搜索領域較為相關。</p><p>可以用2倍速看。開字幕的話，呵呵。</p><iframe width="560" height="315" src="https://www.youtube.com/embed/ljBOzdKuX7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></content>
+    <content type="html"><![CDATA[<h1 id="Deep-Learning-to-Solve-Challenging-Problems"><a href="#Deep-Learning-to-Solve-Challenging-Problems" class="headerlink" title="Deep Learning to Solve Challenging Problems"></a>Deep Learning to Solve Challenging Problems</h1><p>Speech of Jeff Dean, Google Senior Fellow</p><p>感覺是他在科普機器學習在各領域的應用和最近的進展。比較多跟電腦視覺相關的介紹。</p><p>不過NLP領域的東西就沒有太多的介紹，不知道是進展比較小或因為是和搜索領域較為相關。</p><p>可以用2倍速看。開字幕的話，呵呵。</p><p>另外不知道能不能用機器學習做到真正消除人聲或其他噪音的抗噪耳機。</p><iframe width="560" height="315" src="https://www.youtube.com/embed/ljBOzdKuX7A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></content>
     
     <summary type="html">
     
