@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-04T02:12:54.988Z</updated>
+  <updated>2018-10-04T02:02:09.482Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>[Leetcode 10]</title>
-    <link href="http://yoursite.com/2018/10/04/Leetcode-10/"/>
-    <id>http://yoursite.com/2018/10/04/Leetcode-10/</id>
-    <published>2018-10-04T02:01:22.000Z</published>
-    <updated>2018-10-04T02:12:54.988Z</updated>
-    
-    <content type="html"><![CDATA[<script src="https://gist.github.com/markl-a/3134baaa38399c411fb48703368b66de.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script src=&quot;https://gist.github.com/markl-a/3134baaa38399c411fb48703368b66de.js&quot;&gt;&lt;/script&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
-    
-  </entry>
   
   <entry>
     <title>[Leetcode 9]</title>
