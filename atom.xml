@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-04T02:02:09.482Z</updated>
+  <updated>2018-10-09T15:50:20.322Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>recent situation</title>
+    <link href="http://yoursite.com/2018/10/09/recent-situation/"/>
+    <id>http://yoursite.com/2018/10/09/recent-situation/</id>
+    <published>2018-10-09T15:38:37.000Z</published>
+    <updated>2018-10-09T15:50:20.322Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="近況"><a href="#近況" class="headerlink" title="近況"></a>近況</h1><p>因為最近在找工作，所以日誌內容大概會是面試要準備的內容或是作品。</p><p>找到工作過試用期之後，日誌的內容除了刷題跟工作所用的東西之外</p><p>大概會每兩三個月都以一個技術或技術上的新應用作為主題。</p><p>希望每年都能深入的學到一些技術跟應用。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;近況&quot;&gt;&lt;a href=&quot;#近況&quot; class=&quot;headerlink&quot; title=&quot;近況&quot;&gt;&lt;/a&gt;近況&lt;/h1&gt;&lt;p&gt;因為最近在找工作，所以日誌內容大概會是面試要準備的內容或是作品。&lt;/p&gt;
+&lt;p&gt;找到工作過試用期之後，日誌的內容除了刷題跟工作所用的東西之外
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>[Leetcode 9]</title>
