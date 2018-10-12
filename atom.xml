@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-12T15:52:04.305Z</updated>
+  <updated>2018-10-11T07:06:58.686Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>machince learning algorithms</title>
-    <link href="http://yoursite.com/2018/10/12/machince-learning-algorithms/"/>
-    <id>http://yoursite.com/2018/10/12/machince-learning-algorithms/</id>
-    <published>2018-10-12T15:49:54.000Z</published>
-    <updated>2018-10-12T15:52:04.305Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="機器學習算法"><a href="#機器學習算法" class="headerlink" title="機器學習算法"></a>機器學習算法</h1><p>抱歉，由於今天出門去了台南面試跟出糗，所以內容會晚點完成。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;機器學習算法&quot;&gt;&lt;a href=&quot;#機器學習算法&quot; class=&quot;headerlink&quot; title=&quot;機器學習算法&quot;&gt;&lt;/a&gt;機器學習算法&lt;/h1&gt;&lt;p&gt;抱歉，由於今天出門去了台南面試跟出糗，所以內容會晚點完成。&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Tech News 10/11/18</title>
@@ -221,27 +199,6 @@
   </entry>
   
   <entry>
-    <title>Machine Learning Intro</title>
-    <link href="http://yoursite.com/2018/09/30/machine-learning-intro/"/>
-    <id>http://yoursite.com/2018/09/30/machine-learning-intro/</id>
-    <published>2018-09-30T11:52:19.000Z</published>
-    <updated>2018-09-30T12:06:54.838Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="轉貼-超智能体-S01：高考与机器学习"><a href="#轉貼-超智能体-S01：高考与机器学习" class="headerlink" title="轉貼:超智能体-S01：高考与机器学习"></a>轉貼:超智能体-S01：高考与机器学习</h3><p>這個影片用指考或學測很形象的比喻了機器學習的過程。</p><iframe width="670" height="420" src="https://www.youtube.com/embed/hOqa9tox-Kg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;轉貼-超智能体-S01：高考与机器学习&quot;&gt;&lt;a href=&quot;#轉貼-超智能体-S01：高考与机器学习&quot; class=&quot;headerlink&quot; title=&quot;轉貼:超智能体-S01：高考与机器学习&quot;&gt;&lt;/a&gt;轉貼:超智能体-S01：高考与机器学习&lt;/h3&gt;&lt;p&gt;這個
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>[Leetcode 6]</title>
     <link href="http://yoursite.com/2018/09/29/leetcode-6/"/>
     <id>http://yoursite.com/2018/09/29/leetcode-6/</id>
@@ -331,28 +288,6 @@
     
     
       <category term="ML" scheme="http://yoursite.com/tags/ML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Machine Learning Path</title>
-    <link href="http://yoursite.com/2018/09/25/Machine-Learning-Path/"/>
-    <id>http://yoursite.com/2018/09/25/Machine-Learning-Path/</id>
-    <published>2018-09-25T11:23:07.000Z</published>
-    <updated>2018-09-25T13:39:41.856Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="機器學習的參考學習過程"><a href="#機器學習的參考學習過程" class="headerlink" title="機器學習的參考學習過程"></a>機器學習的參考學習過程</h2><p>我個人的不太完善的學習過程。</p><p>筆記轉貼自:<a href="https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes" target="_blank" rel="noopener">fengdu78’s github</a>      </p><p>影片:<a href="https://www.youtube.com/watch?v=PPLop4L2eGk&amp;list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN" target="_blank" rel="noopener">youtube版</a>, <a href="https://www.coursera.org/learn/machine-learning" target="_blank" rel="noopener">coursera</a></p><p>作業轉貼自:<a href="https://github.com/dibgerge/ml-coursera-python-assignments" target="_blank" rel="noopener">dibgerge’s github</a></p><p>第一周    </p><ul><li><a href="http://www.ai-start.com/ml2014/html/week1.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/1" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise1" target="_blank" rel="noopener">python作業</a>            </li></ul><p>第二周)</p><ul><li><a href="http://www.ai-start.com/ml2014/html/week2.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/2" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise2" target="_blank" rel="noopener">python作業</a>   </li></ul><p>第三周    </p><ul><li><a href="http://www.ai-start.com/ml2014/html/week3.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/3" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise3" target="_blank" rel="noopener">python作業</a>  </li></ul><p>第四周</p><ul><li><a href="http://www.ai-start.com/ml2014/html/week4.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/4" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise4" target="_blank" rel="noopener">python作業</a></li></ul><p>第五周    </p><ul><li><a href="http://www.ai-start.com/ml2014/html/week5.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/5" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise5" target="_blank" rel="noopener">python作業</a></li></ul><p>第六周</p><ul><li><a href="http://www.ai-start.com/ml2014/html/week6.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/6" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise6" target="_blank" rel="noopener">python作業</a></li></ul><p>第七周    </p><ul><li><a href="http://www.ai-start.com/ml2014/html/week7.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/7" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercis7" target="_blank" rel="noopener">python作業</a></li></ul><p>第八周</p><ul><li><a href="http://www.ai-start.com/ml2014/html/week8.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/8" target="_blank" rel="noopener">影片</a>    </li><li><a href="https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercis8" target="_blank" rel="noopener">python作業</a></li></ul><p>第九周</p><ul><li><a href="http://www.ai-start.com/ml2014/html/week9.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/9" target="_blank" rel="noopener">影片</a>    </li></ul><p>第十周</p><ul><li><a href="http://www.ai-start.com/ml2014/html/week10.html" target="_blank" rel="noopener">筆記</a>   </li><li><a href="https://www.coursera.org/learn/machine-learning/home/week/10" target="_blank" rel="noopener">影片</a>    </li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;機器學習的參考學習過程&quot;&gt;&lt;a href=&quot;#機器學習的參考學習過程&quot; class=&quot;headerlink&quot; title=&quot;機器學習的參考學習過程&quot;&gt;&lt;/a&gt;機器學習的參考學習過程&lt;/h2&gt;&lt;p&gt;我個人的不太完善的學習過程。&lt;/p&gt;
-&lt;p&gt;筆記轉貼自:&lt;a hre
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -468,6 +403,50 @@
     
     
       <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[Leetcode 1]</title>
+    <link href="http://yoursite.com/2018/09/19/Leetcode-1-Two-Sum-1/"/>
+    <id>http://yoursite.com/2018/09/19/Leetcode-1-Two-Sum-1/</id>
+    <published>2018-09-19T00:33:19.000Z</published>
+    <updated>2018-10-10T13:53:04.645Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Leetcode-1-Two-Sum"><a href="#Leetcode-1-Two-Sum" class="headerlink" title="[Leetcode] 1.Two Sum"></a>[Leetcode] 1.Two Sum</h3><p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p><p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p><h3 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h3><p>Given nums = [2, 7, 11, 15], target = 9,</p><p>Because nums[0] + nums[1] = 2 + 7 = 9,<br>return [0, 1].</p><p>解釋: 從int陣列中找出兩個相加起來等於target的integer並回傳其陣列中的位置。</p><p>網上看到的寫法: 使用Hashmap的C++的雙迴圈版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123;</span><br><span class="line">    /*整數向量          引用整數向量        */</span><br><span class="line">        unordered_map&lt;int, int&gt; m;//C++STL 哈希表的對應容器</span><br><span class="line">        vector&lt;int&gt; res;//整數向量</span><br><span class="line">        for (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">          //.size() ==個數</span><br><span class="line">            m[nums[i]] = i;//value, key</span><br><span class="line">        &#125;</span><br><span class="line">        for (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            int t = target - nums[i];</span><br><span class="line">            if (m.count(t) &amp;&amp; m[t] != i) &#123;</span><br><span class="line">              /*.count() ==出現值的次數   m[t]不等於i 不是同一個元素*/</span><br><span class="line">                res.push_back(i);//加入答案</span><br><span class="line">                res.push_back(m[t]);//加入答案</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>網上看到的寫法: 使用Hashmap的C++的單迴圈版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123;</span><br><span class="line">        unordered_map&lt;int, int&gt; m;</span><br><span class="line">        for (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            if (m.count(target - nums[i])) &#123;//假如減的值有出現一次</span><br><span class="line">                return &#123;i, m[target - nums[i]]&#125;;//回傳序列元素以及第二個元素</span><br><span class="line">            &#125;</span><br><span class="line">            m[nums[i]] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        return &#123;&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>網上看到的寫法:Java 的版本(原理跟c++的一樣)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">public class Solution &#123;</span><br><span class="line">    public int[] twoSum(int[] nums, int target) &#123;</span><br><span class="line">        HashMap&lt;Integer, Integer&gt; m = new HashMap&lt;Integer, Integer&gt;();</span><br><span class="line">        int[] res = new int[2];</span><br><span class="line">        for (int i = 0; i &lt; nums.length; ++i) &#123;</span><br><span class="line">            if (m.containsKey(target - nums[i])) &#123;</span><br><span class="line">                res[0] = i;</span><br><span class="line">                res[1] = m.get(target - nums[i]);</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">            m.put(nums[i], i);</span><br><span class="line">        &#125;</span><br><span class="line">        return res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>網上看到的寫法:Python的版本 (使用<del>tuple</del>Dictionary)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line"></span><br><span class="line">    def twoSum(self, num, target):</span><br><span class="line">        dict = &#123;&#125;</span><br><span class="line">        for i in xrange(len(num)):</span><br><span class="line">            x = num[i]</span><br><span class="line">            if target-x in dict:</span><br><span class="line">                return (dict[target-x], i)</span><br><span class="line">            dict[x] = i</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Leetcode-1-Two-Sum&quot;&gt;&lt;a href=&quot;#Leetcode-1-Two-Sum&quot; class=&quot;headerlink&quot; title=&quot;[Leetcode] 1.Two Sum&quot;&gt;&lt;/a&gt;[Leetcode] 1.Two Sum&lt;/h3&gt;&lt;p&gt;Gi
+      
+    
+    </summary>
+    
+    
+      <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/09/18/hello-world/"/>
+    <id>http://yoursite.com/2018/09/18/hello-world/</id>
+    <published>2018-09-18T06:59:50.760Z</published>
+    <updated>2018-09-24T13:37:36.958Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Hello-我是-Mark-Light"><a href="#Hello-我是-Mark-Light" class="headerlink" title="Hello , 我是 Mark Light"></a>Hello , 我是 Mark Light</h3><h3 id="個人資訊"><a href="#個人資訊" class="headerlink" title="個人資訊"></a>個人資訊</h3><ul><li>賴祺清  /  男  /  7年級尾巴的老頭</li></ul><h3 id="現況"><a href="#現況" class="headerlink" title="現況"></a>現況</h3><ul><li>曾經freelancer，可是沒賺錢。</li></ul><ul><li><ul><li><p>覺得之後AR應該會像蘋果說的很有前途，儘管我之前是寫Android的。</p><p>我覺得AR/VR的設備很有可能取代屏幕跟鍵盤滑鼠之類的輸入設備。</p><p>假如AR/VR能精確地偵測手部的動作以及外在的環境的話。</p><p>視野中的螢幕也能根據軟體調整大小，想要多大就多大，你的視野就是你的螢幕。</p><p>不過前提是鏡片的視野能夠覆蓋大部分眼睛的可視範圍以及鏡片的顯示密度要高。</p><p>此外還能有技術讓設備減低一般人長時間配戴後的不適感 ( 可能就如同玩射擊遊戲的感覺 ) 。</p><p>其他也很重要的大概就是設備的價錢, 業界其他軟體公司的支持, 外型以及續航時間。</p><p>更進一步的想像可能就接近於 sword-art 電影版和攻殼機動隊的電影版。</p><p>遍步城市的虛擬廣告板以及影像, 小型化的AR設備以及其中智能化的操作介面。</p><p>在家或外面也能真實的在辦公室工作,學校學習或在商店消費(不過還是有少部分活動難以取代)。</p></li></ul></li><li><ul><li><p>另外聽新聞說蘋果會在2020年推出AR設備，微軟也會在2019年推出下一代的Hololens。</p><p>當然坑坑的magic leap也已經在今年推出了開發者版本。</p><p>不知道現在做AR的應用能不能上車就是了，不過也可能像前幾年做VR大概率慘死這樣。呵呵</p></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Hello-我是-Mark-Light&quot;&gt;&lt;a href=&quot;#Hello-我是-Mark-Light&quot; class=&quot;headerlink&quot; title=&quot;Hello , 我是 Mark Light&quot;&gt;&lt;/a&gt;Hello , 我是 Mark Light&lt;/h3&gt;&lt;
+      
+    
+    </summary>
+    
     
   </entry>
   
