@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-11T07:06:58.686Z</updated>
+  <updated>2018-10-13T02:46:45.071Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>repost</title>
+    <link href="http://yoursite.com/2018/10/13/repost/"/>
+    <id>http://yoursite.com/2018/10/13/repost/</id>
+    <published>2018-10-13T02:37:11.000Z</published>
+    <updated>2018-10-13T02:46:45.071Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一則線上IT課程公司的焦慮販賣廣告"><a href="#一則線上IT課程公司的焦慮販賣廣告" class="headerlink" title="一則線上IT課程公司的焦慮販賣廣告"></a>一則線上IT課程公司的焦慮販賣廣告</h1><p>吸睛標題如下:<a href="https://blog.csdn.net/csdnnews/article/details/83026911" target="_blank" rel="noopener">编程地震！这个事情影响到 @ 所有程序员！</a></p><p>看完發現好焦慮，不買一下課程對得起自己嗎？　顆顆。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;一則線上IT課程公司的焦慮販賣廣告&quot;&gt;&lt;a href=&quot;#一則線上IT課程公司的焦慮販賣廣告&quot; class=&quot;headerlink&quot; title=&quot;一則線上IT課程公司的焦慮販賣廣告&quot;&gt;&lt;/a&gt;一則線上IT課程公司的焦慮販賣廣告&lt;/h1&gt;&lt;p&gt;吸睛標題如下:&lt;a 
+      
+    
+    </summary>
+    
+    
+      <category term="Trend" scheme="http://yoursite.com/tags/Trend/"/>
+    
+  </entry>
   
   <entry>
     <title>Tech News 10/11/18</title>
@@ -89,7 +112,7 @@
     <link href="http://yoursite.com/2018/10/09/recent-situation/"/>
     <id>http://yoursite.com/2018/10/09/recent-situation/</id>
     <published>2018-10-09T15:38:37.000Z</published>
-    <updated>2018-10-09T15:59:05.089Z</updated>
+    <updated>2018-10-13T02:45:40.191Z</updated>
     
     <content type="html"><![CDATA[<h1 id="近況"><a href="#近況" class="headerlink" title="近況"></a>近況</h1><p>因為最近在找工作，所以日誌內容大概會是面試要準備的內容或是作品。</p><p>找到工作過試用期之後，日誌的內容除了刷題跟工作所用的東西之外</p><p>大概會每兩三個月都以一個技術或技術上的新應用作為主題。</p><p>希望每年都能深入的學到一些技術跟應用。</p>]]></content>
     
@@ -103,6 +126,8 @@
     
     </summary>
     
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
     
   </entry>
   
