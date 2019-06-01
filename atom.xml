@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-01T23:15:21.323Z</updated>
+  <updated>2019-06-01T23:17:55.027Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,20 @@
     <link href="http://yoursite.com/2019/06/02/%E4%B8%80%E6%AE%B5%E6%99%82%E9%96%93%E6%B2%92%E7%94%A8hexo%E5%8F%AF%E8%83%BD%E6%9C%83%E5%87%BA%E7%8F%BE%E7%9A%84%E5%95%8F%E9%A1%8C/"/>
     <id>http://yoursite.com/2019/06/02/一段時間沒用hexo可能會出現的問題/</id>
     <published>2019-06-01T22:59:28.000Z</published>
-    <updated>2019-06-01T23:15:21.323Z</updated>
+    <updated>2019-06-01T23:17:55.027Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="一段時間沒用hexo可能會出現的問題"><a href="#一段時間沒用hexo可能會出現的問題" class="headerlink" title="一段時間沒用hexo可能會出現的問題"></a>一段時間沒用hexo可能會出現的問題</h3><p>因為我之前一段時間都很忙(懶)的關係，很久沒更新(富堅)。</p><p>在此我很抱歉(其實並沒有)　哈哈</p><p>在重新使用的時候，因為各種原因原本的設定都跑掉了。</p><p>假如檔案都在的話，目前有兩個方法：</p><p>1.重裝。</p><p>2.在windows的環境變量PATH上面添加NPM跟hexo的路徑。</p>]]></content>
+    <content type="html"><![CDATA[<p>###因為我之前一段時間都很忙(懶)的關係，很久沒更新(富堅)。</p><p>在此我很抱歉(其實並沒有)　哈哈</p><p>在重新使用的時候，因為各種原因原本的設定都跑掉了。</p><p>假如檔案都在的話，目前有兩個方法：</p><p>1.重裝。</p><p>2.在windows的環境變量PATH上面添加NPM跟hexo的路徑。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;一段時間沒用hexo可能會出現的問題&quot;&gt;&lt;a href=&quot;#一段時間沒用hexo可能會出現的問題&quot; class=&quot;headerlink&quot; title=&quot;一段時間沒用hexo可能會出現的問題&quot;&gt;&lt;/a&gt;一段時間沒用hexo可能會出現的問題&lt;/h3&gt;&lt;p&gt;因為我之前一
+        &lt;p&gt;###因為我之前一段時間都很忙(懶)的關係，很久沒更新(富堅)。&lt;/p&gt;
+&lt;p&gt;在此我很抱歉(其實並沒有)　哈哈&lt;/p&gt;
+&lt;p&gt;在重新使用的時候，因為各種原因原本的設定都跑掉了。&lt;/p&gt;
+&lt;p&gt;假如檔案都在的話，目前有兩個方法：&lt;/p&gt;
+&lt;p&gt;1.重裝。&lt;/p&gt;
+&lt;p&gt;2.
       
     
     </summary>
