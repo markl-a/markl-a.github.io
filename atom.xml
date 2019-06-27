@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>程式, 技術, 人生札記</title>
+  <title>Code, Tech &amp; Life 程式, 技術, 人生札記</title>
   
   
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>賴老頭</name>
+    <name>Someone&#39;s English is suck 賴老頭</name>
     
   </author>
   
