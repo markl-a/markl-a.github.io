@@ -170,7 +170,7 @@ Given n non-negative integers a1, a2, …, an , where each represents a point at
 <p>1.暴力嘗試(遍歷)，找出最優解。時間複雜度為 $O(n^2)$</p>
 </blockquote>
 <blockquote>
-<p>(官方的思路)2.從最大邊長（ｘ軸）開始﹑逐步縮小搜索空間，時間複雜度為Ｏ(n)<br>，每次只留較大的邊進行比對。</p>
+<p>2.(官方的思路)從最大邊長（ｘ軸）開始﹑逐步縮小搜索空間，時間複雜度為Ｏ(n)<br>，每次只留較大的邊進行比對。較小的邊(y軸)的乘積(y軸主要是看最短的邊)就不會是最大的(在n固定的情況)。</p>
 </blockquote>
 <p>C++:</p>
 <script src="https://gist.github.com/markl-a/3134baaa38399c411fb48703368b66de.js"></script>
