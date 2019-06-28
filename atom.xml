@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-02T01:15:39.723Z</updated>
+  <updated>2019-06-28T04:08:44.445Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[leetcode] 11.Container With Most Water</title>
+    <link href="http://yoursite.com/2019/06/28/leetcode-11-Container-With-Most-Water/"/>
+    <id>http://yoursite.com/2019/06/28/leetcode-11-Container-With-Most-Water/</id>
+    <published>2019-06-28T04:08:44.000Z</published>
+    <updated>2019-06-28T04:08:44.445Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>一段時間沒用hexo可能會出現的問題</title>
@@ -445,29 +459,6 @@
       
       
         &lt;h3 id=&quot;Leetcode-2-Add-Two-Numbers&quot;&gt;&lt;a href=&quot;#Leetcode-2-Add-Two-Numbers&quot; class=&quot;headerlink&quot; title=&quot;[Leetcode] 2. Add Two Numbers&quot;&gt;&lt;/a&gt;[Leet
-      
-    
-    </summary>
-    
-    
-      <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Leetcode 1]</title>
-    <link href="http://yoursite.com/2018/09/19/Leetcode-1-Two-Sum-1/"/>
-    <id>http://yoursite.com/2018/09/19/Leetcode-1-Two-Sum-1/</id>
-    <published>2018-09-19T00:33:19.000Z</published>
-    <updated>2018-10-10T13:53:04.645Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Leetcode-1-Two-Sum"><a href="#Leetcode-1-Two-Sum" class="headerlink" title="[Leetcode] 1.Two Sum"></a>[Leetcode] 1.Two Sum</h3><p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p><p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p><h3 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h3><p>Given nums = [2, 7, 11, 15], target = 9,</p><p>Because nums[0] + nums[1] = 2 + 7 = 9,<br>return [0, 1].</p><p>解釋: 從int陣列中找出兩個相加起來等於target的integer並回傳其陣列中的位置。</p><p>網上看到的寫法: 使用Hashmap的C++的雙迴圈版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123;</span><br><span class="line">    /*整數向量          引用整數向量        */</span><br><span class="line">        unordered_map&lt;int, int&gt; m;//C++STL 哈希表的對應容器</span><br><span class="line">        vector&lt;int&gt; res;//整數向量</span><br><span class="line">        for (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">          //.size() ==個數</span><br><span class="line">            m[nums[i]] = i;//value, key</span><br><span class="line">        &#125;</span><br><span class="line">        for (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            int t = target - nums[i];</span><br><span class="line">            if (m.count(t) &amp;&amp; m[t] != i) &#123;</span><br><span class="line">              /*.count() ==出現值的次數   m[t]不等於i 不是同一個元素*/</span><br><span class="line">                res.push_back(i);//加入答案</span><br><span class="line">                res.push_back(m[t]);//加入答案</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>網上看到的寫法: 使用Hashmap的C++的單迴圈版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) &#123;</span><br><span class="line">        unordered_map&lt;int, int&gt; m;</span><br><span class="line">        for (int i = 0; i &lt; nums.size(); ++i) &#123;</span><br><span class="line">            if (m.count(target - nums[i])) &#123;//假如減的值有出現一次</span><br><span class="line">                return &#123;i, m[target - nums[i]]&#125;;//回傳序列元素以及第二個元素</span><br><span class="line">            &#125;</span><br><span class="line">            m[nums[i]] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        return &#123;&#125;;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>網上看到的寫法:Java 的版本(原理跟c++的一樣)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">public class Solution &#123;</span><br><span class="line">    public int[] twoSum(int[] nums, int target) &#123;</span><br><span class="line">        HashMap&lt;Integer, Integer&gt; m = new HashMap&lt;Integer, Integer&gt;();</span><br><span class="line">        int[] res = new int[2];</span><br><span class="line">        for (int i = 0; i &lt; nums.length; ++i) &#123;</span><br><span class="line">            if (m.containsKey(target - nums[i])) &#123;</span><br><span class="line">                res[0] = i;</span><br><span class="line">                res[1] = m.get(target - nums[i]);</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">            m.put(nums[i], i);</span><br><span class="line">        &#125;</span><br><span class="line">        return res;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>網上看到的寫法:Python的版本 (使用<del>tuple</del>Dictionary)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line"></span><br><span class="line">    def twoSum(self, num, target):</span><br><span class="line">        dict = &#123;&#125;</span><br><span class="line">        for i in xrange(len(num)):</span><br><span class="line">            x = num[i]</span><br><span class="line">            if target-x in dict:</span><br><span class="line">                return (dict[target-x], i)</span><br><span class="line">            dict[x] = i</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Leetcode-1-Two-Sum&quot;&gt;&lt;a href=&quot;#Leetcode-1-Two-Sum&quot; class=&quot;headerlink&quot; title=&quot;[Leetcode] 1.Two Sum&quot;&gt;&lt;/a&gt;[Leetcode] 1.Two Sum&lt;/h3&gt;&lt;p&gt;Gi
       
     
     </summary>
