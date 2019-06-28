@@ -179,7 +179,7 @@ Given n non-negative integers a1, a2, …, an , where each represents a point at
 <p>1.Brute-force : compair all combinations to find largest product .</p>
 </blockquote>
 <blockquote>
-<p>2.<a href="https://leetcode.com/problems/container-with-most-water/solution/" target="_blank" rel="noopener">(官方的思路)</a>從最大邊長（ｘ軸）開始﹑逐步縮小搜索空間，時間複雜度為Ｏ(n)<br>，每次只留較大的邊進行比對。較小的邊(y軸)的乘積(y軸主要是看最短的邊)就不會是最大的(在n固定的情況)。</p>
+<p>2.<a href="https://leetcode.com/problems/container-with-most-water/solution/" target="_blank" rel="noopener">(官方的思路)</a>從最大邊長（ｘ軸）開始﹑逐步縮小搜索空間，時間複雜度為 \( O(n) \)<br>，每次只留較大的邊進行比對。較小的邊(y軸)的乘積(y軸主要是看最短的邊)就不會是最大的(在n固定的情況)。</p>
 </blockquote>
 <blockquote>
 <p>2.Two Pointer Approach : Starting from the maximum side length (x-axis), the search space is  reduced step by step ,I only keep larger edges for comparison at each steps. The product of the smaller side (y-axis) with n is surely not the largest . The time complexity is O(n)</p>
