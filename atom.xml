@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-29T04:39:26.217Z</updated>
+  <updated>2020-03-15T14:22:44.776Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>出差前的打算</title>
+    <link href="http://yoursite.com/2020/03/15/%E5%87%BA%E5%B7%AE%E5%89%8D%E7%9A%84%E6%89%93%E7%AE%97/"/>
+    <id>http://yoursite.com/2020/03/15/出差前的打算/</id>
+    <published>2020-03-15T14:13:58.000Z</published>
+    <updated>2020-03-15T14:22:44.776Z</updated>
+    
+    <content type="html"><![CDATA[<p>###很久都沒有更新blog了，現在有點時間了就更新一下這樣</p><p>　　這大概是我工作之後第一次會想要重新開始更新Blog吧 ,</p><p>之後大概有時間就會更新就是了。</p><p>　　主要還是會以IT相關的文章為主就是了，</p><p>主要大概是因為之後有很大的可能會</p><p>＂過一段時間之後我會出差到大陸去做點產品實際的測試跟安裝＂。</p><p>主要是因為我想更深入的參與到特定的專案上（就字面意義上的）</p><p>所以目前打算練下程式跟其他相關的需要的技術</p><p>方便之後過去時能在那一短暫的時間內上手並完成產品的測試跟安裝。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;###很久都沒有更新blog了，現在有點時間了就更新一下這樣&lt;/p&gt;
+&lt;p&gt;　　這大概是我工作之後第一次會想要重新開始更新Blog吧 ,&lt;/p&gt;
+&lt;p&gt;之後大概有時間就會更新就是了。&lt;/p&gt;
+&lt;p&gt;　　主要還是會以IT相關的文章為主就是了，&lt;/p&gt;
+&lt;p&gt;主要大概是因為之後
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>[leetcode 11]</title>
@@ -451,29 +476,6 @@
     
     
       <category term="ML" scheme="http://yoursite.com/tags/ML/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[Leetcode 2]</title>
-    <link href="http://yoursite.com/2018/09/20/Leetcode-2-Add-Two-Numbers/"/>
-    <id>http://yoursite.com/2018/09/20/Leetcode-2-Add-Two-Numbers/</id>
-    <published>2018-09-20T00:14:26.000Z</published>
-    <updated>2018-10-04T02:02:00.968Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Leetcode-2-Add-Two-Numbers"><a href="#Leetcode-2-Add-Two-Numbers" class="headerlink" title="[Leetcode] 2. Add Two Numbers"></a>[Leetcode] 2. Add Two Numbers</h3><p>You are given two non-empty linked lists representing two non-negative integers.</p><p>The digits are stored in reverse order and each of their nodes contain a single digit.</p><p>Add the two numbers and return it as a linked list.</p><p>You may assume the two numbers do not contain any leading zero, except the number 0 itself.</p><p>輸入是兩個正整數(加上0)的連結串列. 每個數字是反向存儲的.</p><p>輸出是把兩個數相加然後以相同的格式輸出.</p><p>假設這兩個數除了0這個數之外不會在數目前補零 (像 12-&gt; 012 或 9-&gt; 009).</p><h3 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h3><p>Input: (2 -&gt; 4 -&gt; 3) + (5 -&gt; 6 -&gt; 4)</p><p>Output: 7 -&gt; 0 -&gt; 8</p><p>Explanation: 342 + 465 = 807.</p><p> <strong>沒有上面這個解釋大概要想很久就是了</strong></p><p> ============================================================================</p><p> ListNode的相關知識可參考下方連接:</p><p> <a href="http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html" target="_blank" rel="noopener">http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html</a></p><p> <a href="http://alrightchiu.github.io/SecondRound/linked-list-xin-zeng-zi-liao-shan-chu-zi-liao-fan-zhuan.html" target="_blank" rel="noopener">http://alrightchiu.github.io/SecondRound/linked-list-xin-zeng-zi-liao-shan-chu-zi-liao-fan-zhuan.html</a></p><p> <a href="https://segmentfault.com/a/1190000002490878" target="_blank" rel="noopener">https://segmentfault.com/a/1190000002490878</a></p><p> <a href="https://www.itread01.com/content/1502971323.html" target="_blank" rel="noopener">https://www.itread01.com/content/1502971323.html</a></p><p> ==========================================================================</p><p>沒有考慮很多情況的C++版本，有Bug的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode(int x) : val(x), next(NULL) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">      ListNode *Ans = new ListNode(0);</span><br><span class="line">        ListNode *processDigit = Ans;</span><br><span class="line">        int carryBlock = 0;//進位</span><br><span class="line">        while(l1 != NULL || l2 != NULL) &#123;</span><br><span class="line">            processDigit-&gt;next = new ListNode((carryBlock + l1-&gt;val + l2-&gt;val) % 10);</span><br><span class="line">            carryBlock = (carryBlock + l1-&gt;val + l2-&gt;val) / 10;</span><br><span class="line">            processDigit = processDigit-&gt;next;</span><br><span class="line">            l1 = l1-&gt;next;</span><br><span class="line">            l2 = l2-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        return Ans-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>考慮一位數以及兩位數輸入以及溢位的C++版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode(int x) : val(x), next(NULL) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br><span class="line"> class Solution &#123;</span><br><span class="line"> public:</span><br><span class="line"> ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) &#123;</span><br><span class="line">  ListNode *Ans = new ListNode(0);</span><br><span class="line">  ListNode *processDigit = Ans;</span><br><span class="line">  int carryBlock = 0;//進位</span><br><span class="line">  while(l1 != NULL || l2 != NULL) &#123;</span><br><span class="line">       int inputDigitA = (l1!= NULL) ? l1-&gt;val : 0,</span><br><span class="line">           inputDigitB = (l2!= NULL) ? l2-&gt;val : 0,</span><br><span class="line">           addDigit = carryBlock + inputDigitA + inputDigitB;</span><br><span class="line">       processDigit =processDigit-&gt;next = new ListNode( addDigit % 10);</span><br><span class="line">       carryBlock = addDigit / 10;</span><br><span class="line">       if(l1!= NULL)l1 = l1-&gt;next;</span><br><span class="line">       if(l2!= NULL)l2 = l2-&gt;next;</span><br><span class="line">   &#125;</span><br><span class="line">   if(carryBlock&gt;0)&#123;</span><br><span class="line">       processDigit = processDigit-&gt;next= new ListNode(carryBlock);</span><br><span class="line">   &#125;</span><br><span class="line">   return Ans-&gt;next;</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p><p>網路上看到的一個很聰明地遞迴 Java寫法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * public class ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode next;</span><br><span class="line"> *     ListNode(int x) &#123; val = x; &#125;</span><br><span class="line"> * &#125;</span><br><span class="line"> */</span><br><span class="line">class Solution &#123;</span><br><span class="line">    public ListNode addTwoNumbers(ListNode l1, ListNode l2) &#123;</span><br><span class="line">      if (l1 == null || l2 == null) &#123;</span><br><span class="line">            return l1 == null ? l2 : l1;</span><br><span class="line">        &#125;</span><br><span class="line">        int value = l1.val + l2.val;</span><br><span class="line">        ListNode result = new ListNode(value % 10);</span><br><span class="line">        result.next = addTwoNumbers(l1.next, l2.next);</span><br><span class="line">        if (value &gt;= 10) &#123;</span><br><span class="line">            result.next = addTwoNumbers(new ListNode(value / 10), result.next);</span><br><span class="line">        &#125;</span><br><span class="line">        return result;  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>網路上看到python的另類解法<br>轉貼自:<a href="https://www.jianshu.com/p/5d8f13225adf" target="_blank" rel="noopener">https://www.jianshu.com/p/5d8f13225adf</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">    # @param &#123;ListNode&#125; l1</span><br><span class="line">    # @param &#123;ListNode&#125; l2</span><br><span class="line">    # @return &#123;ListNode&#125;</span><br><span class="line">    def addTwoNumbers(self, l1, l2):</span><br><span class="line">        def to_int(l):</span><br><span class="line">            return l.val + 10 * to_int(l.next) if l else 0</span><br><span class="line">        def to_list(val):</span><br><span class="line">            l = ListNode(val % 10)</span><br><span class="line">            if val &gt; 9:</span><br><span class="line">                l.next = to_list(val / 10)</span><br><span class="line">            return l</span><br><span class="line">        return to_list(to_int(l1) + to_int(l2))</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Leetcode-2-Add-Two-Numbers&quot;&gt;&lt;a href=&quot;#Leetcode-2-Add-Two-Numbers&quot; class=&quot;headerlink&quot; title=&quot;[Leetcode] 2. Add Two Numbers&quot;&gt;&lt;/a&gt;[Leet
-      
-    
-    </summary>
-    
-    
-      <category term="Leetcode" scheme="http://yoursite.com/tags/Leetcode/"/>
     
   </entry>
   
